@@ -4,14 +4,17 @@
 We have already created a virtual environment and carried out the transcrypt  in the Vocareum submission.
 
 #### Activating Virtual environment
-From the root folder, `Task1_Webpage`
 
+First, check your current directory using
+```shell
+$ pwd
+```
 If you are in the work folder, use
-
 ```shell
 $ cd Task1_Webpage
 ```
-Then enter tthe following command to activate the Virtual environment
+From the root folder, `Task1_Webpage`, enter tthe following command to activate the Virtual environment
+
 ```shell
 $ source virtenv/bin/activate
 ```
