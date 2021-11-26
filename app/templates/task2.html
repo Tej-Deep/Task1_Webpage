@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+        <script type="module">import * as library from './static/__target__/library.js'; window.library = library;</script>
+    </head>
+    <body>
+        <h1>Welcome to {{title}}</h1>
+        <p>
+        	In this task, we will be predicting the number of Covid Cases in Singapore on a date after 2021-02-26.
+        </p>
+        <p>
+        	<div id="Predict">Enter the date(YYYY-MM-DD) you want to predict:</div>
+            <input type="text" name="num_date">
+        </p>
+        <p>
+        	<div id="Predict2">The Number of Predicted Cumulative Cases(in 1000s) on the given date:</div>
+        	<div id="prediction">...</div>
+        	<button onclick="library.Predict_2()">Predict</button>
+        </p>
+        <br><a href="index">Home</a>
+
+    </body>
+</html>
