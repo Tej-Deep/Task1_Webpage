@@ -1,7 +1,7 @@
 # 2D Project 10.020 Data Driven World
 
 #### Vocareum
-If you use Vocareum terminal to run your Flask application, you can do so by running the `runflaskvoc.sh` script. Before running this script, make sure the `voc=True` is set true in the following line inside `Task1_Webpage/app/__init__.py`.
+To use Vocareum terminal to run the Flask application, you can do so by running the `runflaskvoc.sh` script. Before running this script, make sure the `voc=True` is set true in the following line inside `Task1_Webpage/app/__init__.py`.
 
 ```python
 # set voc=False if you run on local computer
