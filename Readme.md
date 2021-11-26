@@ -4,10 +4,16 @@
 We have already created a virtual environment and carried out the transcrypt  in the Vocareum submission.
 
 #### Activating Virtual environment
-From the root folder,
+From the root folder, `Task1_Webpage`
+
+If you are in the work folder, use
 
 ```shell
-> virtenv\Scripts\activate
+$ cd Task1_Webpage
+```
+Then enter tthe following command to activate the Virtual environment
+```shell
+$ source virtenv/bin/activate
 ```
 #### Vocareum
 To use Vocareum terminal to run the Flask application, you can do so by running the `runflaskvoc.sh` script. Before running this script, make sure the `voc=True` is set true in the following line inside `Task1_Webpage/app/__init__.py`.
