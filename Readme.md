@@ -1,5 +1,14 @@
 # 2D Project 10.020 Data Driven World
 
+#### Initial coditions
+We have already created a virtual environment and carried out the transcrypt  in the Vocareum submission.
+
+#### Activating Virtual environment
+From the root folder,
+
+```shell
+> virtenv\Scripts\activate
+```
 #### Vocareum
 To use Vocareum terminal to run the Flask application, you can do so by running the `runflaskvoc.sh` script. Before running this script, make sure the `voc=True` is set true in the following line inside `Task1_Webpage/app/__init__.py`.
 
